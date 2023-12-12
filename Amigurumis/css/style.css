@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bitter', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Hind', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+.logo {
+    display: block;
+    align-items: center;
+    width: 15%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.porta {
+    width: 100%;
+    align-items: center;
+
+}
+
+
+/* ----- Boton carrito -----*/
+.butt {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.navbar i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-card {
+    display: none;
+}
+
+.button {
+    display: none;
+}
+
+.navbar i:hover .buy-card > button {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin: 5px auto;
+    background-color: transparent;
+    border: solid thin white;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-card li {
+    list-style: none;
+    padding: 1rem;
+
+}
+
+/*.navbar i:hover > .buy card {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+}*/
+
+.navbar i:hover .nav-card {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    border-bottom: solid thin white;
+}
+
+
+nav {
+    justify-content: space-between;
+    text-align: center;
+    background-color: #a492b7;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding-left: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    align-items: start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li a {
+    color: black;
+    display: inline-block;
+    align-items: start;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #866e9f;
+    border-radius: 10px;
+    color: #1c253c;
+    padding: 5px;
+}
+.butt {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+button {
+    margin-right: 20px;
+    font-size: 15px;
+    border: solid color(#7d4fb7);
+    background: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+/*----- Inicio-----*/
+.layout {
+    /*width: 1366px;*/
+    height: auto;
+    display: grid;
+    /*grid-template-rows: repeat(3, 1fr);*/
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+.foto {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+}
+
+/*-----Footer----*/
+h4 {
+    padding: 15px 15px;
+}
+
+.mi-footer {
+    background-color: #866e9f;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes {
+    padding: 10px;
+    display: inline-flex;
+}
+
+.icon {
+    padding: 5px;
+}
+
+.icono a {
+    text-decoration: none;
+}*/
+
+.layout1 {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+.grow1 { flex-grow: 1; }
+
+.patron {
+        width: auto;
+        display: flex;
+        gap: 16px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+}
+.grow1 { flex-grow: 1; }
+/*--------Inicio-----*/
+.ini {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    display: block;
+    top: 50%;
+    left: 50%;
+}
+
+input.src {
+    padding: 9px 10px 9px 5px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 3px solid;
+    width: 70%;
+    border-color: #7d4fb7;
+}
+
+/*input.src:hover {
+    width: 180px;
+    box-shadow: 20px;
+}
